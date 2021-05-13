@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Aidan Chase Vandiver</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Megrim" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+<body>
+    <!--Background-->
+    <!--Credit and Thanks to CodePen user Aaron Rickle for background animation source-->
+    <!--Original Pen https://codepen.io/arickle/pen/XKjMZY -->
+    <body class="back-row-toggle splat-toggle">
+      <div class="rain front-row"></div>
+      <div class="rain back-row"></div>
+    <!--Header-->
+    <section id="header">
+    
+      <div class="first">
+        <div class="first">Jamie</div>
+      </div>
+      
+      <div class="last">
+        <div class="last">Hill</div>
+      </div>
+    
+    </section>
+    <!--Modal Nav-->
+    
+    <!-- About Modal -->
+    <button type="button" class="btn btn-outline-secondary" id="aboutButton" data-toggle="modal" data-target="#aboutModal">
+        About
+      </button>
+      
+    <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutModal" aria-hidden="false">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="aboutModal">About Me</h3>
+            </div>
+            <div class="modal-body">
+              <div class="text-center">
+              <img src="...">
+            </div>
+            <div class="text-center">
+                I am always open to learn new things and explore new solutions in IT. I have taken the ElevenFifty Academy
+                course in software development to understand the developer and developer tools. It is my expectation I will be
+                able to use my new skills in solving business solutions to improve uptime and availability.            </div>
+            <h3 class="modal-title">Loving Life</h3>
+          </br>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-interval="1700" data-ride="carousel" >
+                <div class="carousel-inner">
+                  <div class="carousel-item active text-center">
+                    <img src="./Pictures/Dailon.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>ASP.NET</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item text-center">
+                      <img src="./Pictures/India.jpg" alt="Second slide">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h5>HTML</h5>
+                      </div>
+                    </div>
+                  <div class="carousel-item text-center">
+                      <img src="./Pictures/Family.jpg" alt="Third slide">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h5>CSS</h5>
+                      </div>
+                    </div>
+                  <div class="carousel-item text-center">
+                      <img src="assets/img/javascript.png" alt="Fourth slide">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h5>Javascript</h5>
+                      </div>
+                    </div>
+                  <div class="carousel-item text-center">
+                      <img src="assets/img/agile.png" alt="First slide">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h5>Agile/Scrum</h5>
+                      </div>
+                    </div>
+                  <div class="carousel-item text-center">
+                      <img src="assets/img/bootstrap.png" alt="First slide">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h5>Twitter Bootstrap</h5>
+                      </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+            <div class="modal-footer">
+              <button type="button" id="closeBtn" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Projects Modal -->
+      <button type="button" class="btn btn-outline-secondary" id="projectButton" data-toggle="modal" data-target="#projectModal">
+          Projects
+        </button>
+        
+      <div class="modal fade" id="projectModal" tabindex="-1" role="dialog" aria-labelledby="projectModal" aria-hidden="false">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="projectModal">Projects</h3>
+              </div>
+              <div class="modal-body">
+                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="https://github.com/plsaidan/FootStance">
+                          <img class="d-block w-100" src="./Pictures/CodePens.JPG" alt="First slide">
+                          <div class="carousel-caption d-none d-md-block">
+                              <h5>footStance</h5>
+                              <p>Manipulating .css to create images in codepen</p>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://github.com/plsaidan/GoldBadgeChallenges">
+                          <img class="d-block w-100" src="./Pictures/KaleMeCrazy.JPG" alt="Second slide">
+                          <div class="carousel-caption carousel-caption-cons d-none d-md-block">
+                              <h5>Console Apps</h5>
+                              <p>Written in C#. .NET Application Group Projectc</p>
+                            </div>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                          <a href="https://github.com/plsaidan/No-Rivals-Skate">
+                          <img class="d-block w-100" src="assets/img/NRStatic.png" alt="Third slide">
+                          <div class="carousel-caption d-none d-md-block">
+                              <h5>No Rivals Skate</h5>
+                              <p>A static store front using strictly HTML and CSS</p>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="https://codepen.io/skrtAidan/pen/oaOOoJ?editors=1100">
+                              <img class="d-block w-100" src="./Pictures/githubrepos.JPG" alt="Fourth slide">
+                              <div class="carousel-caption d-none d-md-block">
+                                <h5>CSS Pickle</h5>
+                                <p>CSS practice</p>
+                              </div>
+                            </a>
+                          </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" id="closeBtn" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Contact Modal -->
+      <button type="button" class="btn btn-outline-secondary" id="contactButton" data-toggle="modal" data-target="#contactModal">
+          Contact
+        </button>
+        
+      <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModal" aria-hidden="false">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="contactModal">Contact Me</h3>
+              </div>
+              <div class="modal-body">
+                  <div class="container">
+                      <div class="row-center">
+                        <form action="https://formspree.io/jalhill01@gmail.com" method="POST">
+                          <div class="control-group">
+                            <div class="form-group">
+                              <label>Name</label>
+                              <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Your Name"
+                                id="name"
+                                required
+                                data-validation-required-message="Please enter your name"
+                                name="name"
+                                >
+                              <p class="help-block text-danger"></p>
+                            </div>
+                          </div>
+                          <div class="control-group">
+                            <div class="form-group">
+                              <label>Email Address</label>
+                              <input
+                                type="email"
+                                class="form-control"
+                                placeholder="Your Email"
+                                id="email"
+                                required
+                                data-validation-required-message="Please enter your email"
+                                name="_replyto"
+                              >
+                              <p class="help-block text-danger"></p>
+                            </div>
+                          </div>
+                          <div class="control-group">
+                            <div class="form-group">
+                              <textarea
+                                class="form-control"
+                                rows="7"
+                                placeholder="Your Message"
+                                id="message"
+                                required
+                                data-validation-required-message="Please leave a message"
+                                name="message"
+                              ></textarea>
+                              <p class="help-block text-danger"></p>
+                            </div>
+                          </div>
+                          <div class="text-center">
+                            <div id="success"></div>
+                            <button id="closeBtn" type="submit" class="btn btn-outline-secondary">
+                              <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                              Send Message
+                            </button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>          
+                  </div>
+              <div class="modal-footer">
+                <button type="button" id="closeBtn" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+    
+    
+    
+    
+    <!--Footer-->
+    <footer></footer>
+    
+    
+    
+    
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <script src="./js/main.js"></script>
+    </body
+</html>

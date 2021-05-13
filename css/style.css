@@ -1,0 +1,84 @@
+.modal-dialog-centered::before {
+    display: block;
+    height: calc(100vh - (.5rem * 2));
+    content: "";
+}
+
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.first {
+    font-family: 'Megrim', cursive;
+    color: #426DFB;
+    font-size: 8vw;
+    line-height: 8vw;
+}
+
+.last {
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 15%;
+    font-family: 'Megrim', cursive;
+    color: #426DFB;
+    font-size: 8vw;
+    line-height: 8vw;
+}
+.navbar {
+    border-radius: 50;
+    background-color: black;
+    text-emphasis-color: gold
+    ;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: black;
+/*    background-image: linear-gradient(10deg, lightblue 50%, transparent 50%), linear-gradient(-60deg, brown 30%, transparent 30%);
+*/
+}
+
+
+.card-image {
+    width: 10%;
+    height: 100%;
+
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
